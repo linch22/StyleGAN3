@@ -12,7 +12,7 @@ jobs:
         type: volume
     uses: git-checkout@v1
     with:
-      # url: https://github.com/gradient-ai/stylegan2.git
+      # url: wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
       url: context.event.github.url
       ref: context.event.github.ref
   StyleGan2:
